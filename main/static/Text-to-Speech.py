@@ -8,6 +8,7 @@ try:
     input = raw_input
 except NameError:
     pass
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 
 class TextToSpeech(object):

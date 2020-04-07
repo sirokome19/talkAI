@@ -1,8 +1,20 @@
-<audio src="static/sample-answer.wav" id="music" preload="none"></audio>
-<button type="button" id="talk">発言</button>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <!-- キャッシュを無効にする -->
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-cache">
+  <title>talkAI</title>
+</head>
+<body>
 
-<script>
-  document.getElementById("talk").onclick = function () {
-    document.getElementById("music").play()
-  };
-</script>
+  <audio src="static/sample-answer.wav" id="music" preload="none"></audio>
+  <button type="button" id="talk">発言</button>
+
+  <script>
+    document.getElementById("talk").onclick = function () {
+      document.getElementById("music").play()
+    };
+  </script>
+</body>
+</html>
